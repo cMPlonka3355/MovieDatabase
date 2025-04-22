@@ -184,8 +184,8 @@ SELECT *
 FROM director_avg_rating('Steven Spielberg', '%Action & Adventure%', '%Science Fiction & Fantasy%', '%Drama%');
 
 
--- 10. (Recursion) A moviegoer is a big fan of the Star Wars series. Thus, they want to view all of the movies that fall under the Star Wars franchise. 
--- Write an SQL query that outputs all the movies in the Star Wars series.
+-- 10. (Recursion) A moviegoer is a big fan of the 101 Dalmatians series. Thus, they want to view all of the movies that fall under the 101 Dalmatians franchise. 
+-- Write an SQL query that outputs all the movies in the 101 Dalmatians series.
 
 WITH RECURSIVE movies_in_series AS (
     SELECT movie_id, title, genre, duration, release_date
