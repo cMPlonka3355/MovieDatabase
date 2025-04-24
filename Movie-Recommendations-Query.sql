@@ -47,7 +47,7 @@ $$ LANGUAGE plpgsql;
 
 
 -- 5.(Procedure) A moviegoer is interested in an action and/or adventure film. However,  Because of this, the movies listed must have at least 1 award accredited to them. 
--- Additionally, the Rotten Tomato rating of the movie must be equal to or greater than 80. Output a list of all the movies that fit these specifications.
+-- Additionally, the Rotten Tomato rating of the movie must be equal to or greater than 50. Output a list of all the movies that fit these specifications.
 
 CREATE OR REPLACE PROCEDURE genre_city_time_rating (
 	IN user_genre varchar(50), 
